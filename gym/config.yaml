@@ -1,0 +1,45 @@
+name: "Gym booker"
+description: "Gym booker"
+version: "0.0.5"
+slug: "gym"
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+options:
+  api_key: null
+  urls:
+    - name: null
+      club_id: null
+      url: null
+      ids: 
+        - name: null
+          id: null
+  logins:
+    - username: null
+      password: null
+      hour: null
+      min: null
+      days:
+        - null
+      schedule_id: null
+      activity_id: null
+      club: null
+schema:
+  api_key: str
+  urls:
+    - name: str
+      club_id: int
+      url: str
+  logins:
+    - username: str
+      password: str
+      hour: int
+      min: int
+      days:
+        - int
+      schedule_id: int
+      activity_id: int
+      club: str
